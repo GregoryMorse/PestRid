@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="PestRidDrv"
+	ProjectGUID="{C0D8868E-4DA9-4556-9EE1-CB170CEF417C}"
+	RootNamespace="PestRidDrv"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="131072"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+		<Platform
+			Name="x64"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ProjectDir)$(PlatformName)"
+			IntermediateDirectory="$(ProjectDir)$(PlatformName)"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			UseOfMFC="0"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat"
+				ReBuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat"
+				CleanCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c - 0 &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;"
+				Output="objfre_w2k_x86\i386\PestRidDrv.sys;objfre_wxp_x86\i386\PestRidDrv.sys;objfre_wnet_x86\i386\PestRidDrv.sys;"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug|x64"
+			OutputDirectory="$(ProjectDir)$(PlatformName)"
+			IntermediateDirectory="$(ProjectDir)$(PlatformName)"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			UseOfMFC="0"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat 64"
+				ReBuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat 64"
+				CleanCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;"
+				Output="objfre_wnet_amd64\amd64\PestRidDrv.sys"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(ProjectDir)$(PlatformName)"
+			IntermediateDirectory="$(ProjectDir)$(PlatformName)"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			CharacterSet="1"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat"
+				ReBuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat"
+				CleanCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c - 0 &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;"
+				Output=""
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|x64"
+			OutputDirectory="$(ProjectDir)$(PlatformName)"
+			IntermediateDirectory="$(ProjectDir)$(PlatformName)"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			CharacterSet="1"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat 64"
+				ReBuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat 64"
+				CleanCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;"
+				Output="objfre_wnet_amd64\amd64\PestRidDrv.sys"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug Unicode|Win32"
+			OutputDirectory="$(ProjectDir)$(PlatformName)"
+			IntermediateDirectory="$(ProjectDir)$(PlatformName)"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			UseOfMFC="0"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat"
+				ReBuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat"
+				CleanCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c - 0 &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;"
+				Output=""
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug Unicode|x64"
+			OutputDirectory="$(ProjectDir)$(PlatformName)"
+			IntermediateDirectory="$(ProjectDir)$(PlatformName)"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			UseOfMFC="0"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat 64"
+				ReBuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat 64"
+				CleanCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;"
+				Output="objfre_wnet_amd64\amd64\PestRidDrv.sys"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release Unicode|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			CharacterSet="1"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat"
+				ReBuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat"
+				CleanCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c - 0 &amp;&amp; exit&quot;&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;"
+				Output=""
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release Unicode|x64"
+			OutputDirectory="$(SolutionDir)$(PlatformName)\$(ConfigurationName)"
+			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
+			ConfigurationType="0"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
+			CharacterSet="1"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat 64"
+				ReBuildCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit&quot;&#x0D;&#x0A;do.bat 64"
+				CleanCommandLine="CALL ShortPath.bat &quot;%CD%&quot;&#x0D;&#x0A;SET DDKDIR=C:\WINDDK\3790.1830&#x0D;&#x0A;&quot;%COMSPEC%&quot; /K &quot;set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D &quot;%SCD%&quot; &amp;&amp; &quot;%COMSPEC%&quot; /c exit &amp;&amp; build -c -0 &amp;&amp; exit&quot;"
+				Output="objfre_wnet_amd64\amd64\PestRidDrv.sys"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\PestRidDrv.c"
+				>
+			</File>
+			<File
+				RelativePath=".\amd64\PestRidx64.asm"
+				>
+			</File>
+			<File
+				RelativePath=".\i386\PestRidx86.asm"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath=".\PestRidDrv.h"
+				>
+			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+			<File
+				RelativePath=".\do.bat"
+				>
+			</File>
+			<File
+				RelativePath=".\makefile"
+				>
+			</File>
+			<File
+				RelativePath=".\PestRidDrv.rc"
+				>
+			</File>
+			<File
+				RelativePath=".\ShortPath.bat"
+				>
+			</File>
+			<File
+				RelativePath=".\sources"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath=".\ReadMe.txt"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

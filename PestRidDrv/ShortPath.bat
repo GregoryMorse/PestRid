@@ -1,0 +1,1 @@
+SET SCD=%~fs1

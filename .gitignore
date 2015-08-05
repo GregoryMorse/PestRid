@@ -1,0 +1,29 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.ncb
+*.aps
+*.sdf
+*.opensdf
+*.old
+*.suo
+*.user
+/UpgradeLog.htm
+/Debug
+/Debug Unicode
+/Backup
+/ipch/pestrid-20071dd4
+/Release
+/Release Unicode
+/x64
+*.obj
+*.res
+*.mac
+*.htm
+*.log
+*.cer
+*.pfx
+*.pvk
+*.idb
+/Reference

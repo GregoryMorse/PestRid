@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Unicode|Win32">
+      <Configuration>Debug Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Unicode|x64">
+      <Configuration>Debug Unicode</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Unicode|Win32">
+      <Configuration>Release Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Unicode|x64">
+      <Configuration>Release Unicode</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0D8868E-4DA9-4556-9EE1-CB170CEF417C}</ProjectGuid>
+    <RootNamespace>PestRidDrv</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\</IntDir>
+    <NMakeBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+do.bat</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+do.bat</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c - 0 &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"</NMakeCleanCommandLine>
+    <NMakeOutput>objfre_w2k_x86\i386\PestRidDrv.sys%3bobjfre_wxp_x86\i386\PestRidDrv.sys%3bobjfre_wnet_x86\i386\PestRidDrv.sys%3b</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\</IntDir>
+    <NMakeBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+do.bat 64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+do.bat 64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"</NMakeCleanCommandLine>
+    <NMakeOutput>objfre_wnet_amd64\amd64\PestRidDrv.sys</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\</IntDir>
+    <NMakeBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+do.bat</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+do.bat</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c - 0 &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\</IntDir>
+    <NMakeBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+do.bat 64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+do.bat 64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"</NMakeCleanCommandLine>
+    <NMakeOutput>objfre_wnet_amd64\amd64\PestRidDrv.sys</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|Win32'">
+    <OutDir>$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\</IntDir>
+    <NMakeBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+do.bat</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+do.bat</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c - 0 &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Unicode|x64'">
+    <OutDir>$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Platform)\</IntDir>
+    <NMakeBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+do.bat 64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+do.bat 64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"</NMakeCleanCommandLine>
+    <NMakeOutput>objfre_wnet_amd64\amd64\PestRidDrv.sys</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+do.bat</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=1&amp;&amp;set AMD64=&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+do.bat</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre W2K &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WXP &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c - 0 &amp;&amp; exit"
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=x86&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"</NMakeCleanCommandLine>
+    <NMakeOutput />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Unicode|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <NMakeBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w -k &amp;&amp; exit"
+do.bat 64</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; set 386=&amp;&amp;set AMD64=1&amp;&amp; nmake &amp;&amp; build -w &amp;&amp; exit"
+do.bat 64</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>CALL ShortPath.bat "%CD%"
+SET DDKDIR=C:\WINDDK\3790.1830
+"%COMSPEC%" /K "set PROCESSOR_ARCHITECTURE=AMD64&amp;&amp; %DDKDIR%\bin\setenv.bat %DDKDIR% fre AMD64 WNET &amp;&amp; cd /D "%SCD%" &amp;&amp; "%COMSPEC%" /c exit &amp;&amp; build -c -0 &amp;&amp; exit"</NMakeCleanCommandLine>
+    <NMakeOutput>objfre_wnet_amd64\amd64\PestRidDrv.sys</NMakeOutput>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="PestRidDrv.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="amd64\PestRidx64.asm" />
+    <None Include="do.bat" />
+    <None Include="i386\PestRidx86.asm" />
+    <None Include="makefile" />
+    <None Include="ShortPath.bat" />
+    <None Include="sources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PestRidDrv.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PestRidDrv.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
