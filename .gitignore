@@ -14,9 +14,6 @@
 /Debug Unicode
 /Backup
 /ipch/pestrid-20071dd4
-/Release
-/Release Unicode
-/x64
 *.obj
 *.res
 *.mac
@@ -27,3 +24,13 @@
 *.pvk
 *.idb
 /Reference
+*.pch
+*.manifest
+*.ilk
+/x64/Debug
+/x64/Debug Unicode
+/x64/Release Unicode/PestRid.tlog
+/x64/Release/vc90.pdb
+/x64/Release Unicode/vc120.pdb
+/Release/vc90.pdb
+/Release Unicode/vc90.pdb
